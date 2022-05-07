@@ -1,0 +1,5 @@
+#!/bin/sh
+# this batch commands restarts your lucid-container
+# and will freshly tail the container
+docker restart lucid-container && \
+docker logs -f lucid-container
